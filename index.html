@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleri MOEH</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-100">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <!-- Website Logo -->
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="font-semibold text-gray-500 text-lg">Galleri MOEH</span>
+                        </a>
+                    </div>
+                    <!-- Primary Navbar items -->
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="#" class="py-4 px-2 text-gray-500 font-semibold">Hjem</a>
+                        <a href="#om" class="py-4 px-2 text-gray-500 font-semibold">Om</a>
+                        <a href="#galleri" class="py-4 px-2 text-gray-500 font-semibold">Galleri</a>
+                        <a href="#hendelser" class="py-4 px-2 text-gray-500 font-semibold">Hendelser</a>
+                        <a href="#kontakt" class="py-4 px-2 text-gray-500 font-semibold">Kontakt</a>
+                    </div>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-500 hover:text-green-500"
+                            x-show="!showMenu"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="mt-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div id="hjem" class="mb-10">
+                <!-- Hjem Content -->
+            </div>
+            <div id="om" class="mb-10">
+                <!-- Om Content -->
+                <h1 class="text-4xl font-bold mb-4">Maien Østby Hagen</h1>
+                <p class="mb-4">Biografi: Maien har lagd sjukt mye tøft</p>
+            </div>
+            <!-- Legg til flere seksjoner her -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js"></script>
+</body>
+</html>
